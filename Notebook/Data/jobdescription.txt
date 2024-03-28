@@ -1,0 +1,22 @@
+We are looking for a Data Scientist who will work on developing analytical solutions to enhance the product. He/she will work on solutions for the user-facing product features as well as the internal data processes. He/she is expected to leverage suitable AI/ML tools to develop best-in-class solutions.
+As Data Scientist the candidate is expected to understand the solution design, quickly learn new tools and techniques, and work on development and analysis tasks with speed and accuracy. The candidate should have a keen interest in data science, programming and problem-solving.
+The role offers a challenging and exciting opportunity to be a part of a fast-growing industry and do a wide variety of cutting-edge work in the area of data science.
+Key Responsibilities:
+Developing data, ML, AI, and BI product features to enhance the user experience and the value delivered through data
+Develop ML/AI solutions to improve the data related internal processes like data ingestion, summarization, quality check, etc in terms of accuracy and efficiency
+Working with product and design teams to gather requirements and feedback
+Coordinating with the development team for the deployment of data science solutions
+Documentation and presentation of data solutions to internal stakeholders and clients
+Research and exploration of the latest data science products and interventions in the relevant field
+Data analysis for data quality assessment and insight generation
+Requirements:
+B.Tech/B.E./MSc./MBA in engineering, maths, or statistics from top college
+Minimum 1 year of experience with data science, machine learning, and programming
+Expertise in Python, SQL, object-oriented programming, and machine learning libraries
+Knowledge of statistics, machine learning, AI, and NLP tools and techniques
+Knowledge of Git, CI, Spark, AWS, and data pipelines
+Knowledge of Excel, PowerPoint, Shell is desirable
+Good written and verbal communication skills
+Strong problem solving, and quantitative skills
+The candidate should be a quick learner and should be up to date with current technology trends.
+We solve complex, completely new problems in the financial domain which requires someone who is not intimidated by challenges, thrives under pressure, and is hyper-focused on delivering exceptional results
