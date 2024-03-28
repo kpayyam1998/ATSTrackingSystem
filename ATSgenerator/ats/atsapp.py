@@ -33,14 +33,14 @@ Template_1="""
 Here i have provoided the candidate resume.
 you role and responsibility is to find out the below task
 
-1. Find out the how many years of experience needed (e.g : fresher,experinece or in numbers 1,2 3,etc
-2. Find out the specific tool if they mentioned any specific tool experienced person
-3. Find out if any certificate releated to the job description
+1. Find out the years of experience?
+2. Find out the specific tool if they worked?
+3. Find out if any certificate releated to the job description?
 4. Find out the skill,programming languages 
 5. Find out other information related to job description
 6. Find out the candidate qualification
 7. Find out the Key Responsibilities:
-8. Find out the Requirements:
+
 
 Here below the resume information
 ##########################
@@ -68,16 +68,14 @@ Your are the profile matchin expertise.please match these resume and job descrip
 Perform below task
 ***********************
 1. Find out the how many years of experience needed (e.g : fresher,experinece or in numbers 1,2 3,etc
-2. Find out the specific tool if they mentioned any specific tool experienced person
-3. Find out if any certificate releated to the job description
+2. Find out the specific tool releated to job 
+3. Find out if any certificate needed or not
 4. Find out the skill,programming languages.
-6. Find out the candidate qualification 
+6. Find out the qualification 
 7. Find out the Key Responsibilities:
-8. Find out the Requirements:
+8. Find out the Other Requirments needed for candidate:
 
-Can you tell me the matching percentage of these ?
-Can you please match candidate profile to jobdescription
-Can you please suggest what need to be imporve
+Can you please match the candidate profile to jobdescription and provoide 7 tips to improve?
 
 
 
