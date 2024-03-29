@@ -5,7 +5,8 @@ import traceback
 import streamlit as st
 
 #Imported logics
-from ATSgenerator.ats.atsapp import generate_evaluate_chain
+from ATSgenerator.ats.atsapp import generate_evaluate_chain,percentage_evaluate_chain
+# from ATSgenerator.ats.atsapp import Percentage_evaluation_chain
 from ATSgenerator.ats.utill import read_file
 from langchain.callbacks import get_openai_callback
 
@@ -21,21 +22,43 @@ with st.form("user_submits"):
 
     button=st.form_submit_button("Write Review about my resume..")
 
+    percentage=st.form_submit_button("Percentage")
 
 
     if button and upload_file is not None and job_description :
         with st.spinner("Loading.."):
             try:
                candidate_resume=read_file(upload_file)
-               print(candidate_resume)
                with get_openai_callback() as cb:
                     response=generate_evaluate_chain(         
                         {
-                           "job_description":job_description,
-                            "candidate_resume":candidate_resume
+                            "candidate_resume":candidate_resume,
+                            "job_description":job_description
+                            
                         })
                         
                st.write(response.get("job_skill"))
+            except Exception as e:
+                traceback.print_exception(type(e),e,e.__traceback__)
+                st.error("Error")
+            else:
+                print(f"Total Tokens:{cb.total_tokens}")
+                print(f"Prompt Tokens:{cb.prompt_tokens}")
+                print(f"Completion Token:{cb.completion_tokens}")
+                print(f"Total Cost:{cb.total_cost}")
+    elif percentage:
+        with st.spinner("Loading.."):
+            try:
+               candidate_resume=read_file(upload_file)
+               with get_openai_callback() as cb:
+                    response=percentage_evaluate_chain(         
+                        {
+                            "candidate_resume":candidate_resume,
+                            "job_description":job_description
+                            
+                        })
+                        
+               st.write(response.get("Percentage"))
             except Exception as e:
                 traceback.print_exception(type(e),e,e.__traceback__)
                 st.error("Error")
