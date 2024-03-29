@@ -1,5 +1,5 @@
 # ATS-Tracking System 
-###### Here i have developed ATS application which we can use for resume strength before applying any job.
+###### Here i have developed ATS application which we can use to identify our resume strength before applying any job with respective job description
 ###### We can use this  compare our resume to job description.It will suggest you to perfectly match for this job or not
 ###### Here i have used OpenAI(LLM) model to implemented this application using python
 ###### We have to give our resume that should be in PDF format and we should  give job description
